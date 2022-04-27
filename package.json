@@ -1,0 +1,15 @@
+{
+  "name": "socket-rocket",
+  "version": "1.0.0",
+  "description": "Testing a chat app",
+  "main": "server.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "author": "Anika Hagen",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "*",
+    "express": "*"
+  }
+}

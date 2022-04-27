@@ -1,0 +1,9 @@
+#messageArea{
+    display: none;
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background:linear-gradient(lightblue, skyblue);
+}

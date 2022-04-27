@@ -1,0 +1,13 @@
+body {
+    background: $bg;
+  }
+  h1 {
+    color: $header;
+    font-size: 8em;
+    padding: $padding;
+    text-align: center;
+      &:hover {
+        color:$header-hover;
+        border: $border solid $header-hover;
+      } //end &:hover
+  } //end h1
